@@ -1,0 +1,319 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1120px) {
+  .carousel {
+    &__inner {
+      img {
+        width: 650px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .carousel {
+    &__inner {
+      img {
+        width: 600px;
+      }
+    }
+  }
+  .prev,
+  .next {
+    display: none;
+  }
+
+  .header {
+    &__logo {
+      padding-left: 20px;
+      width: 200px;
+      img {
+        width: 100%;
+      }
+    }
+    &__conacts {
+      padding-right: 20px;
+    }
+  }
+
+  .promo {
+    &__wrapper {
+      align-items: center;
+    }
+  }
+
+  .advantages {
+    &__items {
+      width: 100%;
+      padding: 0 10px 0 10px;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .title_left {
+    font-size: 30px;
+  }
+
+  .consultation {
+    .container {
+      padding: 0 30px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .carousel {
+    &__inner {
+      img {
+        width: 500px;
+      }
+    }
+  }
+  .header {
+    &__logo {
+      width: 30%;
+    }
+
+    &__official {
+      width: 30%;
+    }
+
+    &__conacts {
+      width: 30%;
+    }
+
+    &__phone {
+      font-size: 12px;
+    }
+  }
+
+  .advantages {
+    &__item {
+      padding: 5px;
+    }
+    &__info {
+      font-size: 12px;
+    }
+  }
+
+  .cataloge {
+    &__tabs {
+      margin: 15px;
+    }
+
+    div {
+      font-size: 14px;
+    }
+  }
+
+  .feed {
+    &__text {
+      margin-left: 5px;
+      padding-right: 60px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel {
+    &__inner {
+      img {
+        width: 420px;
+      }
+    }
+  }
+  .button {
+    width: 75px;
+    height: 35px;
+    font-weight: 400;
+    font-size: 8px;
+
+    &_main {
+      width: 300px;
+      height: 50px;
+      font-size: 16px;
+    }
+    &_submit {
+      width: 100%;
+      height: 55px;
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+
+  .header {
+    &__phone {
+      font-size: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .promo {
+    &__header {
+      font-size: 30px;
+      text-align: center;
+    }
+    &__subheader {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    &__icons {
+      margin-top: 60px;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .advantages {
+    .title {
+      font-size: 24px;
+    }
+
+    &__items {
+      width: 100%;
+      padding: 0 5%;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+
+    &__item {
+      width: 100%;
+    }
+
+    &__info {
+      margin-top: 10px;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+
+    &__subheader {
+      margin-top: 10px;
+    }
+  }
+
+  .consultation {
+    padding: 70px 0 52px 0;
+    .title {
+      &_left {
+        font-size: 28px;
+      }
+    }
+  }
+  .cataloge {
+    padding-bottom: 60px;
+    &__tabs {
+      flex-direction: column;
+    }
+  }
+
+  .feed {
+    padding-bottom: 71px;
+    &__item {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+
+      img {
+        padding-left: 0px;
+        width: 250px;
+        height: 250px;
+      }
+    }
+    &__title {
+      padding-top: 50px;
+    }
+  }
+}
+@media (max-width: 470px) {
+  .overlay {
+    .modal {
+      &__close {
+        top: 5px;
+        right: 5px;
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .carousel {
+    &__inner {
+      img {
+        width: 360px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .carousel {
+    &__inner {
+      img {
+        width: 330px;
+      }
+    }
+  }
+  .overlay {
+    .modal {
+      width: 330px;
+      padding: 33px 35px 35px 35px;
+
+      &__close {
+        top: 5px;
+        right: 5px;
+        font-size: 30px;
+      }
+      .feed-form_mt25 {
+        width: 280px;
+        input {
+          padding: 0 5px;
+        }
+      }
+      &__subtitle {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+      }
+      &__descr {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .carousel {
+    &__inner {
+      img {
+        width: 280px;
+      }
+    }
+  }
+
+  .advantages {
+    .title {
+      font-size: 20px;
+    }
+  }
+
+  .overlay {
+    .modal {
+      width: 300px;
+      padding: 33px 35px 35px 35px;
+      .feed-form_mt25 {
+        width: 250px;
+        input {
+          padding: 0 5px;
+        }
+      }
+    }
+  }
+}

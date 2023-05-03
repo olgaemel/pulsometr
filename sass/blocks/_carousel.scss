@@ -1,0 +1,58 @@
+.carousel {
+  padding: 81px 0;
+  &__inner {
+    width: 750px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  // .slick-prev,
+  // .slick-next {
+  //   border: none;
+  //   background: #fff;
+  //   position: absolute;
+  //   top: 50%;
+  //   transform: translate(-50%);
+  //   left: -66px;
+  //   img {
+  //     width: 31px;
+  //     height: 50px;
+  //   }
+  // }
+  // .slick-next {
+  //   right: -66px;
+  //   left: auto;
+  // }
+  .prev,
+  .next {
+    border: none;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    left: -15px;
+    img {
+      width: 31px;
+      height: 50px;
+    }
+  }
+  .next {
+    right: -15px;
+    left: auto;
+  }
+
+  .tns-item {
+    // display: relative;
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .tns-nav {
+    button {
+      background-color: red;
+    }
+  }
+}

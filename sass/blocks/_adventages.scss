@@ -1,0 +1,53 @@
+.advantages {
+  padding: 70px 0 80px 0;
+  background-color: #f6f6f6;
+
+  &__subheader {
+    margin-top: 35px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: #0d0d0d;
+  }
+
+  &__items {
+    margin-top: 60px;
+    width: 934px;
+    display: flex;
+
+    justify-content: space-between;
+  }
+  &__item {
+    width: 270px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  &__info {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #0d0d0d;
+
+    span {
+      text-transform: uppercase;
+      a {
+        text-decoration: none;
+        color: $main-color;
+      }
+    }
+  }
+  &__icon {
+    &_animated {
+      animation: heartbeat 2s ease infinite;
+      // animation-name: heartbeat;
+      // animation-duration: 2s;
+      // animation-timing-function: ease;
+      // animation-iteration-count: infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+  }
+}
