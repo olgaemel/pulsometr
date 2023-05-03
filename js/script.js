@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(window).on('load', function () {
   //   $(".carousel__inner").slick({
   //     speed: 1200,
   //     // adaptiveHeight: true,
@@ -125,7 +125,7 @@ $(document).ready(function () {
 
   $('input[name=phone]').mask('+7(999)999-99-99')
 
-  $('form').submit(function (e) {
+  $('form').on('submit', function (e) {
     e.preventDefault()
     if (!$(this).valid()) {
       return
@@ -146,7 +146,7 @@ $(document).ready(function () {
 
   // smooth scroll and pageup
 
-  $(window).scroll(function () {
+  $(window).on('scroll', function () {
     if ($(this).scrollTop() > 1600) {
       $('.pageup').fadeIn()
     } else {
@@ -154,7 +154,7 @@ $(document).ready(function () {
     }
   })
 
-  $('a[href=#up]').click(function () {
+  $('a[href=#up]').on('click', function () {
     const _href = $(this).attr('href')
     $('html, body').animate({ scrollTop: $(_href).offset().top + 'px' })
     return false
